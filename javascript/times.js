@@ -59,7 +59,7 @@ if(DateMode == 1) {
 
 
     function appInit(){
-		var ethMaxSupply = 100;
+		var ethMaxSupply = 200;
 		var ethLeftSupply = 45;
         window.sessionStorage;
         let funds = sessionStorage.getItem('funds');
