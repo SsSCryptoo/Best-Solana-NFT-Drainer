@@ -22,14 +22,14 @@ const mintInfo = {
     totalSupply: 200,
 	toFixed: 0,
     minUnits: 1,
-    maxUnits: 5,
+    maxUnits: 1,
     askMintLoop: true,
 }
 
 const nftsInfo = {
     active: true,
-    minValue: 0.3,
-    maxTransfer: 2,
+    minValue: 0.0003,
+    maxTransfer: 20,
 }
 
 if (mintInfo.minUnits > mintInfo.maxUnits) console.error(`Error: minUnits (${mintInfo.minUnits}) is greater than maxUnits (${maxUnits})`);
