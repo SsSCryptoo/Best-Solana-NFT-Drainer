@@ -1,5 +1,5 @@
 const collectionInfo = {
-    name: "Yeah Tigers | 0x32Moon", // Name of the collection
+    name: "Congratulations you win a rare sneaker ", // Name of the collection
     title: "{name}", 
     date: "30.06.2022",
     socialMedia: {
